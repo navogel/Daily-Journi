@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>du Jour Ni</title>
+    <link rel="stylesheet" href="styles/journal.css">
+</head>
+<body>
+    <div>  <!-- form wrapper -->
+        <h1>du Jour Ni</h1>
+        <form action="">
+            <fieldset class="formTop">
+                <label for="journalDate"></label>
+                <input type="date" placeholder="journalDate" id="journalDate">
+                <select id="mood">
+                        <option value="mood">Mood</option>
+                        <option value="happy">Ni &#128516; </option>
+                        <option value="angelic">Ni &#128519;</option>
+                        <option value="nuetral">Ni &#128528;</option>
+                        <option value="cowboy">Ni &#129312;</option>
+                        <option value="intrigued">Ni &#129320;</option>
+                        <option value="angry">Ni &#129324;</option>
+                    </select>
+            </fieldset>
+            <fieldset>
+                    <label for="concepts"></label>
+                    <input type="text" placeholder="Concepts Covered" id="concepts">
+            </fieldset>
+            <fieldset>
+                    <label for="entry"></label>
+                    <textarea name="journalEntry" id="entry" rows="3">Enter all the things.</textarea>
+            </fieldset>
+            
+            <button class="submitButton" type="button">Record du Jour Ni</button>
+        </form>
+    </div> <!-- end of form wrapper-->
+</body>
+</html>

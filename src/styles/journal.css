@@ -1,0 +1,31 @@
+::placeholder {
+    color: rgb(167, 36, 58);
+}
+
+#entry {
+    font-family: sans-serif;
+    width: -webkit-fill-available;
+    color: rgb(167, 36, 58)
+}
+
+#concepts {
+    width: -webkit-fill-available;
+}
+
+#mood {
+    float: right;
+    height: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 500px;
+}
+
+.submitButton {
+    /* max-width: 200px; */
+    /* text-align: center; */
+    margin-top: .5em;
+}
