@@ -1,31 +1,147 @@
 ::placeholder {
-    color: rgb(167, 36, 58);
+	color: rgb(48, 48, 48);
 }
 
+/* styling the pieces of the form */
+
 #entry {
-    font-family: sans-serif;
-    width: -webkit-fill-available;
-    color: rgb(167, 36, 58)
+	font-family: 'Oswald', sans-serif;
+	width: -webkit-fill-available;
+    color: rgb(48, 48, 48);
+    height: 5em;
+    border-radius: .15em;
+    border: none;
 }
 
 #concepts {
     width: -webkit-fill-available;
+    height: 2em;
+    border-radius: .15em;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+#journalDate {
+    border-radius: .15em;
+    border: none;
+    background-color: #ffffff;
+    height: 2em;
+    color: rgb(48, 48, 48);
+    font-family: 'Oswald', sans-serif;
 }
 
 #mood {
-    float: right;
-    height: 24px;
+	float: right;
+    height: 2em;
+    background-color: rgb(255, 255, 255);
+    border-radius: .15em;
+    border: none;
+    color: rgb(48, 48, 48);
+    font-family: 'Oswald', sans-serif;
 }
+
+/* Styling the form */
 
 form {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
     max-width: 500px;
+    min-width: 230px
 }
 
-.submitButton {
-    /* max-width: 200px; */
-    /* text-align: center; */
-    margin-top: .5em;
+.formBottom {
+   display: flex;
 }
+
+.formTop, .formEntry, .formConcepts {
+    padding: .3em .6em;
+}
+
+.formTop {
+    padding-top: .6em;
+}
+
+.formBody {
+    background-color: rgb(64, 96, 145);
+    border-radius: 5px;
+}
+
+/* Styling the title */
+
+h1 {
+    text-align: center;
+    font-family: 'Bungee Hairline', sans-serif;
+    font-weight: 800;
+      
+}
+    
+/* styling the submit button */
+
+a.button1 {
+    display: inline-block;
+    padding: .1em 1.5em;
+    border:0.15em solid white;
+    margin: auto;
+    border-radius: .15em;
+    box-sizing: border-box;
+    text-decoration: none; 
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: center; 
+    transition: all .2s;
+    margin-top: 1em;
+    margin-bottom: 0;  
+}
+
+a.button1:hover {
+    color: rgb(64, 96, 145);
+    background-color: white;
+    
+
+}
+
+@media all and (max-width:30em) {
+    a.button1{
+        display:block;
+        margin: .4em auto;
+    }
+}
+
+/* Saying Ni another time */
+
+span.add-label{
+    display:none;
+   }
+   .button1:hover span.align{
+    display:none;
+   }
+   .button1:hover span.add-label{
+    display:block;
+    padding: 0em .4em;
+   }
+
+   /* info corner button */
+
+   .info {
+       float: right;
+       color: white;
+       padding: .2em;
+       text-decoration: none;
+       font-family: 'Oswald', sans-serif;
+       font-size: .8em;
+   }
+
+   .info:hover {
+       background-color: white;
+       color: rgb(64, 96, 145);
+       border-radius: .15em 0em;
+       
+   }
+
+   /* styling options in dropdown */
+
+   optgroup {
+       font-size: 1.3em;
+   }
