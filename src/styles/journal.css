@@ -153,3 +153,20 @@ span.add-label {
 optgroup {
 	font-size: 1.3em;
 }
+
+
+/* Dark Theme Styles */
+
+.wrapper {
+	background-color: rgb(64, 96, 145);
+	padding-bottom: 5em;
+	margin-top: 5em;
+}
+
+.wrapper>h1, .wrapper>h5{
+	color: white;
+}
+
+.wrapper>h1 {
+	padding-top: 2em;
+}
