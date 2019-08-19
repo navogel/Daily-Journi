@@ -163,7 +163,41 @@ optgroup {
 }
 
 
-/* Dark Theme Styles */
+
+
+
+/* card 1 */
+
+.card1 {
+	background: url(/src/images/bg.jpg);
+	background-size: cover;
+	padding-bottom: 7em;
+	padding-top: 2em;
+	background-attachment: fixed;
+  	background-position: left bottom;
+	background-repeat: no-repeat;
+	/* gradient background */
+	/* background: linear-gradient(to top, rgba(255, 255, 255, 0.425) 0%,rgba(255, 255, 255, 0.452) 100%),url(/src/images/bg.jpg); */
+	/* background opacity */
+	background-color: rgba(238, 238, 238, 0.89) !important;
+	background-blend-mode: overlay;
+  
+}
+
+.card1>h1 {
+	font-size: -webkit-xxx-large;
+    text-shadow: 2px 3px 5px red;
+}
+
+.card1>h5 {
+	/* text-shadow: 2px 0px 8px rgb(73, 73, 73); */
+}
+
+.card1>form>.formBody>.formTop {
+	padding-top: 2em;
+}
+
+/*card 2 dark theme */
 
 .card2 {
 	background-color: rgb(106, 133, 190);
@@ -184,37 +218,7 @@ optgroup {
 	padding-top: 2em;
 }
 
-.cardcontent2 {
-	
-}
-
-
-/* background image */
-
-.card1 {
-	background: url(/src/images/bg.jpg);
-	background-size: cover;
-	padding-bottom: 7em;
-	padding-top: 2em;
-	background-attachment: fixed;
-  	background-position: center right;
-  	background-repeat: no-repeat;
-  
-}
-
-.card1>h1 {
-	font-size: -webkit-xxx-large;
-    text-shadow: 2px 3px 5px red;
-}
-
-.card1>h5 {
-	text-shadow: 2px 0px 8px orange;
-}
-
-.card1>form>.formBody>.formTop {
-	padding-top: 2em;
-}
-
+/* card 3 */
 
 .card3 {
 	background: url(/src/images/bg05.jpg);
@@ -230,7 +234,8 @@ optgroup {
 .card3>h1 {
 	color: white;
 	font-size: -webkit-xxx-large;
-    text-shadow: 0px 0px 18px rgb(255, 255, 255);
+	text-shadow: 0px 0px 18px rgb(255, 255, 255);
+	padding-top: 1em;
 }
 
 .card3>h5 {
