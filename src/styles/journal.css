@@ -1,7 +1,11 @@
+
+
+
 ::placeholder {
 	color: rgb(48, 48, 48);
 }
 
+body {margin: 0}
 /* styling the pieces of the form */
 
 #entry {
@@ -67,6 +71,9 @@ form {
 .formBody {
 	background-color: rgb(106, 166, 190);
 	border-radius: 5px;
+	margin-right: 2em;
+	margin-left: 2em;
+	min-width: 275px;
 	
 }
 
@@ -93,7 +100,7 @@ h5 {
 a.button1 {
 	display: inline-block;
 	padding: 0.1em 1.5em;
-	border: 0.15em solid white;
+	border: 0.07em solid white;
 	margin: auto;
 	border-radius: 0.15em;
 	box-sizing: border-box;
@@ -161,6 +168,7 @@ optgroup {
 .card2 {
 	background-color: rgb(106, 133, 190);
 	padding-bottom: 5em;
+	border: 2px solid white;
 	
 }
 
@@ -174,6 +182,10 @@ optgroup {
 
 .card2>h1 {
 	padding-top: 2em;
+}
+
+.cardcontent2 {
+	
 }
 
 
@@ -197,6 +209,10 @@ optgroup {
 
 .card1>h5 {
 	text-shadow: 2px 0px 8px orange;
+}
+
+.card1>form>.formBody>.formTop {
+	padding-top: 2em;
 }
 
 
