@@ -201,21 +201,35 @@ optgroup {
 
 .card2 {
 	background-color: rgb(106, 133, 190);
-	padding-bottom: 5em;
+	padding: 5em 3em;
 	border: 2px solid white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 	
 }
 
-.card2>form>.formBody {
+.card2>.card2Body>form>.formBody {
 	background-color: rgb(106, 133, 190);
+	padding-top: 0.5em;
 }
 
-.card2>h1, .card2>h5{
+.card2>.card2Body>form>.formBody>.formEntry {
+	min-width: 350px;
+}
+
+.card2>.card2Body>h1, .card2>.card2Body>h5{
 	color: white;
+	margin: 0;
 }
 
-.card2>h1 {
-	padding-top: 2em;
+.card2image {
+	height: 300px;
+	width: auto;
+	padding-top: 5em;
+	padding: 0em 2em 1em 2em;
 }
 
 /* card 3 */
