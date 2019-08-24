@@ -1,2 +1,2 @@
 # Daily-Journi
- daily journal
+ daily journal with python
