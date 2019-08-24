@@ -1,5 +1,5 @@
 
-* {}
+* {box-sizing: border-box}
 
 ::placeholder {
 	color: rgb(48, 48, 48);
@@ -54,12 +54,8 @@ body {
 /* Styling the form */
 
 form {
-	/* display: flex; */
-	/* align-self: center; */
 	align-items: center;
-	/* margin: auto; */
 	max-width: 500px;
-	/* min-width: 230px; */
 	margin: auto;
 }
 
@@ -170,26 +166,14 @@ optgroup {
 	font-size: 1.3em;
 }
 
-
-
-
-
-
-
 /*card 2 dark theme */
 
 .card2 {
 	background-color: rgb(106, 133, 190);
-	/* padding: 5em 3em; */
-	/* border: 2px solid white; */
 	display: flex;
 	flex-direction: column;
-	/* flex-wrap: wrap; */
 	justify-content: center;
-	/* align-items: center; */
-	width: 100%;
-	margin: 1em;
-	
+	width: 100%;	
 }
 
 .card2>.card2Body>form>.formBody {
@@ -209,17 +193,12 @@ h1, h5{
 }
 
 .card2Body {
-	/* display: flex; */
 	flex-direction: column;
 	align-self: center;
 	width: 100%;
 }
 
 .card2image {
-	
-    /* width: auto; */
-    /* padding-top: 5em; */
-    /* padding: 0em 2em 1em 2em; */
     position: relative;
 	left: 13px;
 	padding-top: 1em;
