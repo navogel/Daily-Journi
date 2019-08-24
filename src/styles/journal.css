@@ -204,7 +204,7 @@ optgroup {
 	padding: 5em 3em;
 	border: 2px solid white;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
@@ -230,6 +230,8 @@ optgroup {
 	width: auto;
 	padding-top: 5em;
 	padding: 0em 2em 1em 2em;
+	position: relative;
+	left: 13px;
 }
 
 /* card 3 */
