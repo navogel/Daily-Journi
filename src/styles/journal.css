@@ -1,12 +1,17 @@
 
-
+* {}
 
 ::placeholder {
 	color: rgb(48, 48, 48);
 }
 
-body {margin: 0}
+body {
+	margin: 1em;
+	display: flex;
+	justify-content: center;
+}
 /* styling the pieces of the form */
+
 
 #entry {
 	font-family: "Oswald", sans-serif;
@@ -32,6 +37,8 @@ body {margin: 0}
 	height: 2em;
 	color: rgb(48, 48, 48);
 	font-family: "Oswald", sans-serif;
+	align-self: baseline;
+	margin-right: 10px;
 }
 
 #mood {
@@ -47,11 +54,13 @@ body {margin: 0}
 /* Styling the form */
 
 form {
-	display: flex;
-	flex-direction: column;
-	margin: auto;
+	/* display: flex; */
+	/* align-self: center; */
+	align-items: center;
+	/* margin: auto; */
 	max-width: 500px;
-	min-width: 230px;
+	/* min-width: 230px; */
+	margin: auto;
 }
 
 .formBottom {
@@ -66,15 +75,14 @@ form {
 
 .formTop {
 	padding-top: 0.6em;
+	display: flex;
+	justify-content: space-between;
 }
 
 .formBody {
-	background-color: rgb(106, 166, 190);
 	border-radius: 5px;
-	margin-right: 2em;
-	margin-left: 2em;
-	min-width: 275px;
-	
+	max-width: 350px;
+    margin: auto;
 }
 
 /* Styling the title */
@@ -166,48 +174,21 @@ optgroup {
 
 
 
-/* card 1 */
 
-.card1 {
-	background: url(/src/images/bg.jpg);
-	background-size: cover;
-	padding-bottom: 7em;
-	padding-top: 2em;
-	background-attachment: fixed;
-  	background-position: left bottom;
-	background-repeat: no-repeat;
-	/* gradient background */
-	/* background: linear-gradient(to top, rgba(255, 255, 255, 0.425) 0%,rgba(255, 255, 255, 0.452) 100%),url(/src/images/bg.jpg); */
-	/* background opacity */
-	background-color: rgba(238, 238, 238, 0.89) !important;
-	background-blend-mode: overlay;
-  
-}
-
-.card1>h1 {
-	font-size: -webkit-xxx-large;
-    text-shadow: 2px 3px 5px red;
-}
-
-.card1>h5 {
-	/* text-shadow: 2px 0px 8px rgb(73, 73, 73); */
-}
-
-.card1>form>.formBody>.formTop {
-	padding-top: 2em;
-}
 
 /*card 2 dark theme */
 
 .card2 {
 	background-color: rgb(106, 133, 190);
-	padding: 5em 3em;
-	border: 2px solid white;
+	/* padding: 5em 3em; */
+	/* border: 2px solid white; */
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 	justify-content: center;
-	align-items: center;
+	/* align-items: center; */
+	width: 100%;
+	margin: 1em;
 	
 }
 
@@ -217,49 +198,50 @@ optgroup {
 }
 
 .card2>.card2Body>form>.formBody>.formEntry {
-	min-width: 350px;
+	/* min-width: 350px; */
 }
 
-.card2>.card2Body>h1, .card2>.card2Body>h5{
+h1, h5{
 	color: white;
 	margin: 0;
+	position: relative;
+	top: -10px;
+}
+
+.card2Body {
+	/* display: flex; */
+	flex-direction: column;
+	align-self: center;
+	width: 100%;
 }
 
 .card2image {
-	height: 300px;
-	width: auto;
-	padding-top: 5em;
-	padding: 0em 2em 1em 2em;
-	position: relative;
+	
+    /* width: auto; */
+    /* padding-top: 5em; */
+    /* padding: 0em 2em 1em 2em; */
+    position: relative;
 	left: 13px;
-}
-
-/* card 3 */
-
-.card3 {
-	background: url(/src/images/bg05.jpg);
-	/* background-size: cover; */
-	padding-bottom: 7em;
-	padding-top: 2em;
-	background-attachment: fixed;
-  	background-position: center;
-  	background-repeat: no-repeat;
-  
-}
-
-.card3>h1 {
-	color: white;
-	font-size: -webkit-xxx-large;
-	text-shadow: 0px 0px 18px rgb(255, 255, 255);
 	padding-top: 1em;
+	object-fit: contain;
+	max-width: 100%;
+  	height: auto;
+
 }
 
-.card3>h5 {
-	color: white;
-	/* text-shadow: 0px 0px 8px rgb(255, 255, 255); */
+.imgBG {
+	max-width: 400px;
+	align-self: center;
 }
 
-.card3>form>.formBody {
-	background-color: rgba(106, 166, 190, 0.555);
+.imgBGbottom {
+	max-width: 400px;
+	align-self: center;
+
+  -webkit-transform: scaleY(-1) scaleX(-1);
+  transform: scaleY(-1) scaleX(-1);
 }
 
+.formwrapper {
+	/* max-width: 400px;  */
+}
