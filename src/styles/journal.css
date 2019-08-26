@@ -183,7 +183,7 @@ optgroup {
 
 
 
-h1, h5{
+.card2Body > h1, .card2Body > h5{
 	color: white;
 	margin: 0;
 	position: relative;
