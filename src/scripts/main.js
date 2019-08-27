@@ -7,7 +7,8 @@ let journalEntry = {
 	text: undefined
 };
 
-fuction addEntry(newEntry) {
+function addEntry(newEntry) {
 	journalArray.push(journalEntry);
 	console.log(journalArray);
 }
+AZ;
