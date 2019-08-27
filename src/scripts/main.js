@@ -1,4 +1,4 @@
-let journiArray = [];
+let journalArray = [];
 
 let journalEntry = {
 	date: undefined,
@@ -7,5 +7,7 @@ let journalEntry = {
 	text: undefined
 };
 
-journiArray.push(journalEntry);
-console.log(journiArray);
+fuction addEntry(newEntry) {
+	journalArray.push(journalEntry);
+	console.log(journalArray);
+}
